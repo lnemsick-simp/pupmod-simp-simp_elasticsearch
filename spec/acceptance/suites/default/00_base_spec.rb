@@ -72,6 +72,7 @@ simp_options::firewall : true
 
         set_hieradata_on(host, hdata)
         apply_manifest_on(host, manifest, :catch_failures => true)
+        on(host, 'rpm -q elasticsearch')
       end
 
       it 'should be idempotent' do

@@ -1,3 +1,6 @@
+* Fri Feb 09 2018 Liz Nemsick <lnemsick.simp@gmail.com> - 5.0.1-0
+- Update upperbound on puppetlabs/java version to < 3.0.0
+
 * Fri Jun 16 2017 Liz Nemsick <lnemsick.simp@gmail.com> - 5.0.0-0
 - Update custom Puppet 3 functions to namespaced, Puppet 4 functions
 - Update puppet requirement and remove OBE pe requirement in metadata.json
