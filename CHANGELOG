@@ -9,6 +9,8 @@
   apache_auth
 - Use simp_apache::limits in lieu of simp_apache's deprecated Puppet 3
   apache_limits
+- Use Puppet built in function length in lieu of simplib's deprecated
+  Puppet 3 array_size
 - Update the upper bound of stdlib to < 6.0.0
 - Update the upper bound of stdlib to < 6.0.0
 - Update a URL in the README.rst

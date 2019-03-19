@@ -5,7 +5,7 @@
 #
 class simp_elasticsearch::defaults {
 
-  if array_size($::simp_elasticsearch::unicast_hosts) < 3 {
+  if length($::simp_elasticsearch::unicast_hosts) < 3 {
     $min_master_nodes = 1
   }
   else {
